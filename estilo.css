@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 900px;
+   margin: 0 auto;
+}
+
+.elementosFlex {
+   display: flex;
+}
+
+.titulo {
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.orden {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+.vista {
+   border: 1px solid black;
+}
+
+.preguntas {
+   width: 750px;
+   border: 1px solid black;
+}
+
+
+
+.menu {
+   width: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid black;
+}
+
+.menu button, .menu h3 {
+   text-decoration: none;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 10px;
+}
+
+
+.menuNavegacion {
+   border: 1px solid black;
+}
+
+.menuNavegacion a {
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+.opcion {
+   background-color: #fff;
+}
+
+.contenido {
+   width: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Pregunta 1*/
+.alumno {
+   width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+.activo {
+   background-color: gray;
+   color: white;
+}
